@@ -1,0 +1,38 @@
+.section {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .section input[type="text"],
+  .section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .section textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .section button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .section button:hover {
+    background-color: #c0392b;
+  }
+  
