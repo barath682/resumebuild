@@ -4,7 +4,7 @@ import "./../styles/Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2025 Dynamic Resume Builder</p>
+      <p>Dynamic Resume Builder</p>
       <div className="social-icons">
         <a href="#">LinkedIn</a>
         <a href="#">GitHub</a>
